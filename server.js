@@ -14,7 +14,7 @@ require("dotenv").config();
 
 
 app.use(session({
-    secret: 'server',
+    secret: 'secret',
     resave: false,
     saveUninitialized: false
 }));
