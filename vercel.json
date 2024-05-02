@@ -3,14 +3,14 @@
   "name": "file-transfer-web-app-nodejs-mongodb",
   "builds": [
     {
-      "src": "server.js",
+      "src": "/server.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "views/index.ejs"
+      "dest": "/views/index.ejs"
     }
   ],
   "env": {
