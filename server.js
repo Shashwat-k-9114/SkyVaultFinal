@@ -718,7 +718,7 @@ http.listen(process.env.PORT, function () {
         });
 
         // home page
-        app.get("/", function (request, result) {
+        app.get("/", (request, result) => {
             result.render("index", {
                 "request": request
             });
