@@ -230,7 +230,7 @@ http.listen(process.env.PORT, function () {
     console.log("Server started at " + "port: " + process.env.PORT );
 
     // connect with mongo DB server
-    mongoClient.connect(process.env.MONGO_URI, {
+    mongoClient.connect("mongodb+srv://jaymehta:jaymehta@portfolio.h76h5.mongodb.net/?retryWrites=true&w=majority", {
         useUnifiedTopology: true
     }, function (error, client) {
 
