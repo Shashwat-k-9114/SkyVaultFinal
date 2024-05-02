@@ -45,10 +45,6 @@ app.use(function (request, result, next) {
     next();
 });
 
-// Define route handler for home page
-app.get("/", (req, res) => {
-    res.render("index", { request: req }); // Render your home page template here
-});
 
 // recursive function to get the file from uploaded
 function recursiveGetFile (files, _id) {
