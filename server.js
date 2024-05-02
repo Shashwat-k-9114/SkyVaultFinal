@@ -31,7 +31,7 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 
 
-var mainURL = "http://localhost:3000";
+var mainURL = "https://sky-vault-final-8ief.vercel.app";
 
 
 var database = null;
